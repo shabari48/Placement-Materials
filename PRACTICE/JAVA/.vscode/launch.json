@@ -1,0 +1,63 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "zohopattern",
+      "request": "launch",
+      "mainClass": "zohopattern",
+      "projectName": "JAVA_d72ed120"
+    },
+    {
+      "type": "java",
+      "name": "RemoveConsecutiveDuplicates",
+      "request": "launch",
+      "mainClass": "RemoveConsecutiveDuplicates",
+      "projectName": "JAVA_d72ed120"
+    },
+    {
+      "type": "java",
+      "name": "diamondprinting",
+      "request": "launch",
+      "mainClass": "diamondprinting",
+      "projectName": "JAVA_d72ed120"
+    },
+    {
+      "name": "C/C++: gcc.exe build and debug active file",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${fileDirname}",
+      "environment": [],
+      "externalConsole": false,
+      "MIMode": "gdb",
+      "miDebuggerPath": "C:\\MinGW\\bin\\gdb.exe",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        },
+        {
+          "description": "Set Disassembly Flavor to Intel",
+          "text": "-gdb-set disassembly-flavor intel",
+          "ignoreFailures": true
+        }
+      ],
+      "preLaunchTask": "C/C++: gcc.exe build active file"
+    },
+    {
+      "name": "(Windows) Launch",
+      "type": "cppvsdbg",
+      "request": "launch",
+      "program": "enter program name, for example ${workspaceFolder}/a.exe",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${fileDirname}",
+      "environment": [],
+      "console": "externalTerminal"
+    }
+  ],
+  "version": "2.0.0"
+}
